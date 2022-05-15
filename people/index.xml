@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>endr.in</title>
-    <link>https://hugo-blog.endr.in/</link>
-    <description>Recent content on endr.in</description>
+    <title>People on endr.in</title>
+    <link>https://hugo-blog.endr.in/people/</link>
+    <description>Recent content in People on endr.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 May 2022 20:23:00 +0530</lastBuildDate><atom:link href="https://hugo-blog.endr.in/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BEGAE 182</title>
-      <link>https://hugo-blog.endr.in/assignment/begae-182/</link>
-      <pubDate>Sun, 15 May 2022 20:23:00 +0530</pubDate>
-      
-      <guid>https://hugo-blog.endr.in/assignment/begae-182/</guid>
-      <description>What do you understand by the term ‘non-verbal communication’ (150 words) In our day-to-day life, a substantial portion of our communication is in the form of non-verbal communication. There are various types of non-verbal communication which broadly can be classified in to 9 categories. For example,
- Facial expressions: a smile or a frown can convey various types of emotions to the audience and thus forms a perfect type of non-verbal communication.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 15 May 2022 16:30:39 +0530</lastBuildDate><atom:link href="https://hugo-blog.endr.in/people/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vilfredo Pareto</title>
       <link>https://hugo-blog.endr.in/people/vilfredo-pareto/</link>
@@ -146,48 +136,6 @@ Works
   His definition of Sociology is: subject to natural and invariable laws, the discovery of which is the object of investigation.
   He gave most importance towards the scientific method.
   Comte offered an account of social evolution, proposing that society undergoes three phases in its quest for the truth according to a general law of three stages.</description>
-    </item>
-    
-    <item>
-      <title>Abstract Empiricism</title>
-      <link>https://hugo-blog.endr.in/concept/abstract-empiricism/</link>
-      <pubDate>Sat, 14 May 2022 17:07:08 +0530</pubDate>
-      
-      <guid>https://hugo-blog.endr.in/concept/abstract-empiricism/</guid>
-      <description>Definition: Abstracted empiricism refers to a style of quantitative sociology that attempts to explain the interrelationship between sociological variables using multivariate analysis. The term ‘abstracted empiricism’ was probably coined by C. Wright Mills (1960) to distinguish an approach to sociology that he regarded as obsessed with method and detrimental to the sociological imagination.
- Multivariate analysis is a statistical technique that attempts to show how more than two operationalised concepts are interrelated.</description>
-    </item>
-    
-    <item>
-      <title>BSOC-101: Unit 02 Emergence of Sociology and Social Anthropology</title>
-      <link>https://hugo-blog.endr.in/material/bsoc-101/unit-02-emergence-of-sociology-and-social-anthropology/</link>
-      <pubDate>Sat, 14 May 2022 17:07:08 +0530</pubDate>
-      
-      <guid>https://hugo-blog.endr.in/material/bsoc-101/unit-02-emergence-of-sociology-and-social-anthropology/</guid>
-      <description>Sociology and social anthropology, though have come from different roots, both the subjects are very much interrelated as discipline. As academic discipline, both have emerged only in 19th century though without any demarcation, both the discipline existed in early centuries also.
-Emergence of Sociology:
-he emergence of sociology could be attributed to changes that occurred in the western world during the 18thand 19thcentury where new scientific discovery and methodology has enabled the people to systematize and structure the physical in a more orderly manner which has led to requirement of realization of society as an entity and the role of individuals in the system.</description>
-    </item>
-    
-    <item>
-      <title>BSOC-102: Unit 01 Thinking Sociologically</title>
-      <link>https://hugo-blog.endr.in/material/bsoc-102/unit-01-thinking-sociologically-and/</link>
-      <pubDate>Sat, 14 May 2022 17:07:08 +0530</pubDate>
-      
-      <guid>https://hugo-blog.endr.in/material/bsoc-102/unit-01-thinking-sociologically-and/</guid>
-      <description>This is BSOC-102
-And this is a paragraph that I&amp;rsquo;ve added to track changes.</description>
-    </item>
-    
-    <item>
-      <title>BSOC-101: Unit 01 Thinking Sociologically</title>
-      <link>https://hugo-blog.endr.in/material/bsoc-101/unit-01-thinking-sociologically/</link>
-      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://hugo-blog.endr.in/material/bsoc-101/unit-01-thinking-sociologically/</guid>
-      <description>Objectives   what is meant as a sociological perspective
-  How do sociologists observe and interpret the realities of everyday life
-  Opinions from various scholars:   Zygmunt Bauman: power as the key driver of social relationships. Power refers to status and role and society based upon values created and maintained by those who have power and the resources to propagate the values. The power hierarchies will define the meanings acquired by objects and things.</description>
     </item>
     
   </channel>
