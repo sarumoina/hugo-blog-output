@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>endr.in</title>
-    <link>https://hugo-blog.endr.in/</link>
-    <description>Recent content on endr.in</description>
+    <title>people on endr.in</title>
+    <link>https://hugo-blog.endr.in/tags/people/</link>
+    <description>Recent content in people on endr.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 May 2022 16:30:39 +0530</lastBuildDate><atom:link href="https://hugo-blog.endr.in/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 16:30:39 +0530</lastBuildDate><atom:link href="https://hugo-blog.endr.in/tags/people/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vilfredo Pareto</title>
       <link>https://hugo-blog.endr.in/references/people/vilfredo-pareto/</link>
@@ -136,46 +136,6 @@ Works
   His definition of Sociology is: subject to natural and invariable laws, the discovery of which is the object of investigation.
   He gave most importance towards the scientific method.
   Comte offered an account of social evolution, proposing that society undergoes three phases in its quest for the truth according to a general law of three stages.</description>
-    </item>
-    
-    <item>
-      <title>Abstract Empiricism</title>
-      <link>https://hugo-blog.endr.in/references/concept/abstract-empiricism/</link>
-      <pubDate>Sat, 14 May 2022 17:07:08 +0530</pubDate>
-      
-      <guid>https://hugo-blog.endr.in/references/concept/abstract-empiricism/</guid>
-      <description>Definition: Abstracted empiricism refers to a style of quantitative sociology that attempts to explain the interrelationship between sociological variables using multivariate analysis. The term ‘abstracted empiricism’ was probably coined by C. Wright Mills (1960) to distinguish an approach to sociology that he regarded as obsessed with method and detrimental to the sociological imagination.
- Multivariate analysis is a statistical technique that attempts to show how more than two operationalised concepts are interrelated.</description>
-    </item>
-    
-    <item>
-      <title>BSOC-101: Unit 01 Thinking Sociologically</title>
-      <link>https://hugo-blog.endr.in/study/bsoc-101/unit-01-thinking-sociologically/</link>
-      <pubDate>Sat, 14 May 2022 17:07:08 +0530</pubDate>
-      
-      <guid>https://hugo-blog.endr.in/study/bsoc-101/unit-01-thinking-sociologically/</guid>
-      <description>Objectives   what is meant as a sociological perspective
-  How do sociologists observe and interpret the realities of everyday life
-  Opinions from various scholars:   Zygmunt Bauman: power as the key driver of social relationships. Power refers to status and role and society based upon values created and maintained by those who have power and the resources to propagate the values. The power hierarchies will define the meanings acquired by objects and things.</description>
-    </item>
-    
-    <item>
-      <title>BSOC-101: Unit 02 Emergence of Sociology and Social Anthropology</title>
-      <link>https://hugo-blog.endr.in/study/bsoc-101/unit-02-emergence-of-sociology-and-social-anthropology/</link>
-      <pubDate>Sat, 14 May 2022 17:07:08 +0530</pubDate>
-      
-      <guid>https://hugo-blog.endr.in/study/bsoc-101/unit-02-emergence-of-sociology-and-social-anthropology/</guid>
-      <description>This is BSOC-101. Unit 02</description>
-    </item>
-    
-    <item>
-      <title>BSOC-102: Unit 01 Thinking Sociologically</title>
-      <link>https://hugo-blog.endr.in/study/bsoc-102/unit-01-thinking-sociologically-and/</link>
-      <pubDate>Sat, 14 May 2022 17:07:08 +0530</pubDate>
-      
-      <guid>https://hugo-blog.endr.in/study/bsoc-102/unit-01-thinking-sociologically-and/</guid>
-      <description>This is BSOC-102
-And this is a paragraph that I&amp;rsquo;ve added to track changes.</description>
     </item>
     
   </channel>
