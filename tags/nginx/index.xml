@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nginx on endr.in</title>
+    <link>https://blog.endr.in/tags/nginx/</link>
+    <description>Recent content in nginx on endr.in</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 May 2022 15:58:21 +0530</lastBuildDate><atom:link href="https://blog.endr.in/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>03 Installing Nginx</title>
+      <link>https://blog.endr.in/guides/cloudcone/03-installing-nginx/</link>
+      <pubDate>Mon, 16 May 2022 15:58:21 +0530</pubDate>
+      
+      <guid>https://blog.endr.in/guides/cloudcone/03-installing-nginx/</guid>
+      <description>Table of Content:
+ Installing Nginx: Setting up nginx as webserver for nextjs/gatsby Setting up nginx as webserver for php Running multiple server blocks Retreiving errors  Installing Nginx: To install nginx, run the following command in terminal:
+$ sudo apt install nginx  Setting up nginx as webserver for nextjs/gatsby Example config for reverse proxy:
+# example script for reverse proxy server { server_name example.xopun.com; location / { # First attempt to serve request as file, then # as directory, then fall back to displaying a 404.</description>
+    </item>
+    
+  </channel>
+</rss>

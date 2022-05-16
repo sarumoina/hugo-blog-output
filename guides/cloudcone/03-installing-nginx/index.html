@@ -13,7 +13,7 @@
     <script>hljs.highlightAll();</script>
     
     
-    <title>endr.in | 01. Installing the OS</title>
+    <title>endr.in | 03 Installing Nginx</title>
 </head><body>
         <section class="section">
             <div class="container content"><div class="content has-text-centered-mobile has-text-left-desktop">
@@ -21,7 +21,7 @@
 </div><div id="content">
                 <div class="columns">
                     <div class="column is-9 has-text-justified">
-<h1 class="title is-size-5">01. Installing the OS</h1>
+<h1 class="title is-size-5">03 Installing Nginx</h1>
 
 
 <i data-feather="calendar"></i>
@@ -36,46 +36,39 @@
 <a class="tag is-light is-primary" href="https://blog.endr.in/tags/cloudcone">cloudcone</a>
 
 
+<a class="tag is-light is-primary" href="https://blog.endr.in/tags/nginx">nginx</a>
+
+
 <br><br>
 <p><strong>Table of Content:</strong></p>
 <ul>
-<li><a href="#installing-the-os">Installing the OS</a></li>
-<li><a href="#login-to-the-server">Login to the server:</a></li>
-<li><a href="#changing-datetime">Changing date/time</a></li>
+<li><a href="#installing-nginx">Installing Nginx:</a></li>
+<li><a href="#setting-up-nginx-as-webserver-for-nextjsgatsby">Setting up nginx as webserver for nextjs/gatsby</a></li>
+<li><a href="#setting-up-nginx-as-webserver-for-php">Setting up nginx as webserver for php</a></li>
+<li><a href="#running-multiple-server-blocks">Running multiple server blocks</a></li>
+<li><a href="#retreiving-errors">Retreiving errors</a></li>
 </ul>
-<h4 id="installing-the-os">Installing the OS</h4>
-<p>You&rsquo;ll require SSH keys in order to prevent logging in to computer with a password everytime.</p>
-<p><strong>local computer</strong></p>
-<pre><code>$ ssh-keygen
-# Follow the onscreen directions in order to generate the public and the private pair
-$ cat YOUR_KEY.pub
-# The public key will appear
-# Copy the public key.
+<h4 id="installing-nginx">Installing Nginx:</h4>
+<p>To install nginx, run the following command in terminal:</p>
+<pre><code>$ sudo apt install nginx
 </code></pre>
-<p><strong>In cloudcone web dashboard</strong></p>
-<p>Now go to the profile section in the dashboard of cloudcone and select SSH keys.</p>
-<blockquote>
-<p>Paste the content that you&rsquo;ve copied earlier.</p>
-</blockquote>
-<p>Now it is time to login to the server.</p>
-<h4 id="login-to-the-server">Login to the server:</h4>
-<p>Open the terminal and type the following:</p>
-<pre><code>ssh root@YOUR_IPV4_IP
+<h4 id="setting-up-nginx-as-webserver-for-nextjsgatsby">Setting up nginx as webserver for nextjs/gatsby</h4>
+<p>Example config for reverse proxy:</p>
+<pre><code># example script for reverse proxy
+server {
+    server_name example.xopun.com;
+    location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                proxy_pass http://localhost:5000;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection 'upgrade';
+                proxy_set_header Host $host;
+                proxy_cache_bypass $http_upgrade;
+        }
+}
 </code></pre>
-<p>It will ask for your password which will be provided to you in the registered mail. Enter the password. Now it is time to install the SSH keys.</p>
-<pre><code># STEP 2: INSTALL THE SSH KEY
-$ curl -o cc-ikey -L web.cloudc.one/sh/key &amp;&amp; sh cc-ikey some-random-key #it will be different for you.
-</code></pre>
-<p>Also, if you want to get information about the RAM usage in the system, then execute the following in the terminal.</p>
-<pre><code>$ wget -O install stats.cloudcone.sh &amp;&amp; bash install some-random-string
-# It will be different on every instances. The random string will be provided to you by cloudcone.
-</code></pre>
-<p>After the installation, you&rsquo;ll see the ram usage in cloudcone dashboard.</p>
-<h4 id="changing-datetime">Changing date/time</h4>
-<p>To set the timezone, run the following command:</p>
-<pre><code>$ sudo timedatectl set-timezone Asia/Kolkata
-</code></pre>
-<p>And</p>
 
 
 <div class='notification is-light is-warning'>
@@ -83,15 +76,42 @@ $ curl -o cc-ikey -L web.cloudc.one/sh/key &amp;&amp; sh cc-ikey some-random-key
     <strong>Note:</strong>
     
     <p>
-
-If you want to get a list of time-zones available, you can use the following:
-
+If you get any errors stating Can't start Nginx - Job for nginx.service failed then especially check the line endings. Every line should end with a ";" otherwise this error will popup
 </p>
 </div>
 
-<pre><code>$ timedatectl list-timezones
+<h4 id="setting-up-nginx-as-webserver-for-php">Setting up nginx as webserver for php</h4>
+<p>Edit the following in nginx (<code>/etc/nginx/sites-enabled/default</code>):</p>
+<pre><code>server {
+
+    server_name example.xopun.com;
+    listen 80;
+    root /var/www/example.xopun.com;
+
+    index index.php;
+
+    location / {
+            try_files $uri $uri/ /index.php?$query_string;
+    }
+
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php8.0-fpm.sock;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
 </code></pre>
-<p>You can also use <code>grep</code> in order to narrow it down such as <code>$ timedatectl list-timezones | grep Asia/Kolkata</code></p>
+<p>We are using the <code>php8.0-fpm</code> as the fastcgi gateway in order to serve the php files.</p>
+<p>Restart the nginx server via <code>sudo systemctl restart nginx</code>. You can also test the nginx configuration by <code>sudo nginx -t</code>.</p>
+<h4 id="running-multiple-server-blocks">Running multiple server blocks</h4>
+<p>Just put them in their own file inside the server block as shown above. The files should be put in <code>/etc/nginx/sites-enabled/</code> folder.</p>
+<h4 id="retreiving-errors">Retreiving errors</h4>
+<pre><code>$ sudo tail /var/log/nginx/error.log -n 200
+</code></pre>
 
 
                     </div>
