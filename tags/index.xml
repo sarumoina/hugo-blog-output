@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on endr.in</title>
-    <link>https://hugo-blog.endr.in/tags/</link>
+    <link>https://blog.endr.in/tags/</link>
     <description>Recent content in Tags on endr.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 May 2022 11:21:23 +0530</lastBuildDate><atom:link href="https://hugo-blog.endr.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 May 2022 11:21:23 +0530</lastBuildDate><atom:link href="https://blog.endr.in/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>concept</title>
-      <link>https://hugo-blog.endr.in/tags/concept/</link>
+      <link>https://blog.endr.in/tags/concept/</link>
       <pubDate>Mon, 16 May 2022 11:21:23 +0530</pubDate>
       
-      <guid>https://hugo-blog.endr.in/tags/concept/</guid>
+      <guid>https://blog.endr.in/tags/concept/</guid>
       <description></description>
     </item>
     
     <item>
       <title>assignment</title>
-      <link>https://hugo-blog.endr.in/tags/assignment/</link>
+      <link>https://blog.endr.in/tags/assignment/</link>
       <pubDate>Sun, 15 May 2022 20:23:00 +0530</pubDate>
       
-      <guid>https://hugo-blog.endr.in/tags/assignment/</guid>
+      <guid>https://blog.endr.in/tags/assignment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>people</title>
-      <link>https://hugo-blog.endr.in/tags/people/</link>
+      <link>https://blog.endr.in/tags/people/</link>
       <pubDate>Sun, 15 May 2022 16:30:39 +0530</pubDate>
       
-      <guid>https://hugo-blog.endr.in/tags/people/</guid>
+      <guid>https://blog.endr.in/tags/people/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bsoc-101</title>
-      <link>https://hugo-blog.endr.in/tags/bsoc-101/</link>
+      <link>https://blog.endr.in/tags/bsoc-101/</link>
       <pubDate>Sat, 14 May 2022 17:07:08 +0530</pubDate>
       
-      <guid>https://hugo-blog.endr.in/tags/bsoc-101/</guid>
+      <guid>https://blog.endr.in/tags/bsoc-101/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bsoc-102</title>
-      <link>https://hugo-blog.endr.in/tags/bsoc-102/</link>
+      <link>https://blog.endr.in/tags/bsoc-102/</link>
       <pubDate>Sat, 14 May 2022 17:07:08 +0530</pubDate>
       
-      <guid>https://hugo-blog.endr.in/tags/bsoc-102/</guid>
+      <guid>https://blog.endr.in/tags/bsoc-102/</guid>
       <description></description>
     </item>
     
     <item>
       <title>study</title>
-      <link>https://hugo-blog.endr.in/tags/study/</link>
+      <link>https://blog.endr.in/tags/study/</link>
       <pubDate>Sat, 14 May 2022 17:07:08 +0530</pubDate>
       
-      <guid>https://hugo-blog.endr.in/tags/study/</guid>
+      <guid>https://blog.endr.in/tags/study/</guid>
       <description></description>
     </item>
     
