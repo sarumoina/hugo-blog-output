@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/default.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js"></script>
+    <link href='https://unpkg.com/css.gg/icons/all.css' rel='stylesheet'>
+    <script>hljs.highlightAll();</script>
+    
+    
+    <title>endr.in | 01 Installing the OS</title>
+</head><body>
+        <section class="section">
+            <div class="container content"><div class="content has-text-centered-mobile has-text-left-desktop">
+    <span class="title is-size-3-desktop is-size-3-mobile"><a href="/" style="text-decoration: none; color: #4a4a4a; font-family: 'Oleo Script', cursive;">blog.endr.in</a></span> <ion-icon class="has-text-primary" name="bulb-outline"></ion-icon>
+</div><div id="content">
+                <div class="columns">
+                    <div class="column is-9 has-text-justified">
+<h1 class="title is-size-5">01 Installing the OS</h1>
+
+
+<i data-feather="calendar"></i>
+<time datetime="2022-05-16">May 16, 2022</time> | Tags:
+
+<i data-feather="tag"></i>
+
+
+<a class="tag is-light is-primary" href="https://blog.endr.in/tags/guides">guides</a>
+
+
+<a class="tag is-light is-primary" href="https://blog.endr.in/tags/cloudcone">cloudcone</a>
+
+
+<br><br>
+<p><strong>Table of Content:</strong></p>
+<ul>
+<li><a href="#installing-the-os">installing the os</a></li>
+<li><a href="#login-to-the-server">Login to the server</a></li>
+<li><a href="#changing-datetime">Changing Date &amp; time</a></li>
+</ul>
+<h4 id="installing-the-os">Installing the OS</h4>
+<p>You&rsquo;ll require SSH keys in order to prevent logging in to computer with a password everytime.</p>
+<p><strong>local computer</strong></p>
+<pre><code>$ ssh-keygen
+# Follow the onscreen directions in order to generate the public and the private pair
+$ cat YOUR_KEY.pub
+# The public key will appear
+# Copy the public key.
+</code></pre>
+<p><strong>In cloudcone web dashboard</strong></p>
+<p>Now go to the profile section in the dashboard of cloudcone and select SSH keys.</p>
+<blockquote>
+<p>Paste the content that you&rsquo;ve copied earlier.</p>
+</blockquote>
+<p>Now it is time to login to the server.</p>
+<h4 id="login-to-the-server">Login to the server:</h4>
+<p>Open the terminal and type the following:</p>
+<pre><code>ssh root@YOUR_IPV4_IP
+</code></pre>
+<p>It will ask for your password which will be provided to you in the registered mail. Enter the password. Now it is time to install the SSH keys.</p>
+<pre><code># STEP 2: INSTALL THE SSH KEY
+$ curl -o cc-ikey -L web.cloudc.one/sh/key &amp;&amp; sh cc-ikey some-random-key #it will be different for you.
+</code></pre>
+<p>Also, if you want to get information about the RAM usage in the system, then execute the following in the terminal.</p>
+<pre><code>$ wget -O install stats.cloudcone.sh &amp;&amp; bash install some-random-string
+# It will be different on every instances. The random string will be provided to you by cloudcone.
+</code></pre>
+<p>After the installation, you&rsquo;ll see the ram usage in cloudcone dashboard.</p>
+<h4 id="changing-datetime">Changing date/time</h4>
+<p>To set the timezone, run the following command:</p>
+<pre><code>$ sudo timedatectl set-timezone Asia/Kolkata
+</code></pre>
+<p>And</p>
+
+
+<div class='notification is-light is-warning'>
+
+    <strong>Note:</strong>
+    
+    <p>
+
+If you want to get a list of time-zones available, you can use the following:
+
+</p>
+</div>
+
+<pre><code>$ timedatectl list-timezones
+</code></pre>
+<p>You can also use <code>grep</code> in order to narrow it down such as <code>$ timedatectl list-timezones | grep Asia/Kolkata</code></p>
+
+
+                    </div>
+                    <div class="column is-3">
+                        <h5 class="title is-size-5">Tags</h5>
+                        <ul>
+                         
+                        
+                            <li><a class="is-uppercase is-size-7" href=/tags/assignment/ title="All pages with tag <i>assignment</i>">assignment (2)</a>
+                                </li>
+                         
+                         
+                        
+                            <li><a class="is-uppercase is-size-7" href=/tags/bsoc-101/ title="All pages with tag <i>bsoc-101</i>">bsoc-101 (14)</a>
+                                </li>
+                         
+                         
+                        
+                            <li><a class="is-uppercase is-size-7" href=/tags/bsoc-102/ title="All pages with tag <i>bsoc-102</i>">bsoc-102 (1)</a>
+                                </li>
+                         
+                         
+                        
+                            <li><a class="is-uppercase is-size-7" href=/tags/cloudcone/ title="All pages with tag <i>cloudcone</i>">cloudcone (1)</a>
+                                </li>
+                         
+                         
+                        
+                            <li><a class="is-uppercase is-size-7" href=/tags/concept/ title="All pages with tag <i>concept</i>">concept (3)</a>
+                                </li>
+                         
+                         
+                        
+                            <li><a class="is-uppercase is-size-7" href=/tags/guides/ title="All pages with tag <i>guides</i>">guides (1)</a>
+                                </li>
+                         
+                         
+                        
+                            <li><a class="is-uppercase is-size-7" href=/tags/people/ title="All pages with tag <i>people</i>">people (13)</a>
+                                </li>
+                         
+                         
+                        
+                            <li><a class="is-uppercase is-size-7" href=/tags/study/ title="All pages with tag <i>study</i>">study (15)</a>
+                                </li>
+                         
+                         
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section><div class="content has-text-centered" style="padding: 2em;">                
+    <hr />
+    <p>
+        <a href="/tags">Tags</a>&nbsp;|&nbsp;<a href="/archive">Archive</a>&nbsp;|&nbsp;<ion-icon name="mail-outline"></ion-icon> contact@endr.in
+    </p>              
+    <p class=is-size-7>
+        <a href="https://blog.endr.in">blog.endr.in</a> is a subsidiary of endr.in and the content of this site is licensed under CC attribution. 
+        <br />The content available on this site are for educational purpose only. If you have sole right to a portion/whole, then kindly write to us at <span class="has-text-primary-dark"><ion-icon name="mail-outline"></ion-icon> contact@endr.in</span> for take down of relevent content. 
+    </p>               
+</div></body>
+</html>
