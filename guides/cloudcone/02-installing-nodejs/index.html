@@ -13,7 +13,7 @@
     <script>hljs.highlightAll();</script>
     
     
-    <title>endr.in | BSOC-102</title>
+    <title>endr.in | 02. Installing Nodejs</title>
 </head><body>
         <section class="section">
             <div class="container content"><div class="content has-text-centered-mobile has-text-left-desktop">
@@ -21,16 +21,48 @@
 </div><div id="content">
                 <div class="columns">
                     <div class="column is-9 has-text-justified">
-<span class="is-size-5 title">Collection: BSOC-102</span>
+<h1 class="title is-size-5">02. Installing Nodejs</h1>
 
 
-<ul>
-    <li class="mt-5">
-        <a class="is-size-6" href="/material/bsoc-102/unit-01-thinking-sociologically-and/">BSOC-102: Unit 01 Thinking Sociologically</a>
-       
-    </li>
-</ul>
+<i data-feather="calendar"></i>
+<time datetime="2022-05-16">May 16, 2022</time> | Tags:
 
+<i data-feather="tag"></i>
+
+
+<a class="tag is-light is-primary" href="https://blog.endr.in/tags/guides">guides</a>
+
+
+<a class="tag is-light is-primary" href="https://blog.endr.in/tags/cloudcone">cloudcone</a>
+
+
+<a class="tag is-light is-primary" href="https://blog.endr.in/tags/nodejs">nodejs</a>
+
+
+<br><br>
+<p>In order to run the full stack server, at first, you will have to install nodejs. At the time of writing this article, nodejs is at version 14.0</p>
+<pre><code># Using Ubuntu
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+</code></pre>
+<p>This will install nodejs 14.0 in your server.</p>
+
+
+<div class='notification is-light is-link'>
+
+    <strong>Note:</strong>
+    
+    <p>
+
+if executing sudo apt update returns with an error, then goto the cloudcone control panel > Firewall > Accept. It will update the packages without any hiccups after that
+</p>
+</div>
+
+<h4 id="downgrade-nodejs">Downgrade nodejs</h4>
+<p>If you want to downgrade to older version then you can do it via the following:</p>
+<pre><code>$ npm install -g n   # Install n globally
+$ n 14.17.0          # Install and use v0.10.33
+</code></pre>
 
 
                     </div>

@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.endr.in/guides/cloudcone/01-installing-the-os/</loc>
-    <lastmod>2022-05-16T13:06:50+05:30</lastmod>
+    <loc>https://blog.endr.in/guides/cloudcone/02-installing-nodejs/</loc>
+    <lastmod>2022-05-16T14:49:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/guides/cloudcone/</loc>
-    <lastmod>2022-05-16T13:06:50+05:30</lastmod>
+    <lastmod>2022-05-16T14:49:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/tags/cloudcone/</loc>
-    <lastmod>2022-05-16T13:06:50+05:30</lastmod>
+    <lastmod>2022-05-16T14:49:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/</loc>
-    <lastmod>2022-05-16T13:06:50+05:30</lastmod>
+    <lastmod>2022-05-16T14:49:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/guides/</loc>
-    <lastmod>2022-05-16T13:06:50+05:30</lastmod>
+    <lastmod>2022-05-16T14:49:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/tags/guides/</loc>
-    <lastmod>2022-05-16T13:06:50+05:30</lastmod>
+    <lastmod>2022-05-16T14:49:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.endr.in/tags/nodejs/</loc>
+    <lastmod>2022-05-16T14:49:29+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/tags/</loc>
+    <lastmod>2022-05-16T14:49:29+05:30</lastmod>
+  </url><url>
+    <loc>https://blog.endr.in/guides/cloudcone/01-installing-the-os/</loc>
     <lastmod>2022-05-16T13:06:50+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/material/bsoc-101/</loc>

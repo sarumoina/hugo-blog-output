@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nodejs on endr.in</title>
+    <link>https://blog.endr.in/tags/nodejs/</link>
+    <description>Recent content in nodejs on endr.in</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 May 2022 14:49:29 +0530</lastBuildDate><atom:link href="https://blog.endr.in/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>02. Installing Nodejs</title>
+      <link>https://blog.endr.in/guides/cloudcone/02-installing-nodejs/</link>
+      <pubDate>Mon, 16 May 2022 14:49:29 +0530</pubDate>
+      
+      <guid>https://blog.endr.in/guides/cloudcone/02-installing-nodejs/</guid>
+      <description>In order to run the full stack server, at first, you will have to install nodejs. At the time of writing this article, nodejs is at version 14.0
+# Using Ubuntu $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - $ sudo apt-get install -y nodejs  This will install nodejs 14.0 in your server.
+Note:  if executing sudo apt update returns with an error, then goto the cloudcone control panel  Firewall  Accept.</description>
+    </item>
+    
+  </channel>
+</rss>
