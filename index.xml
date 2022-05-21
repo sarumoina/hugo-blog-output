@@ -18,51 +18,6 @@
     </item>
     
     <item>
-      <title>04 Installing Yarn</title>
-      <link>https://blog.endr.in/guides/cloudcone/04-installing-yarn/</link>
-      <pubDate>Mon, 16 May 2022 17:36:14 +0530</pubDate>
-      
-      <guid>https://blog.endr.in/guides/cloudcone/04-installing-yarn/</guid>
-      <description>To install yarn on the server, execute the following:
-$ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - $ echo &amp;quot;deb https://dl.yarnpkg.com/debian/ stable main&amp;quot; | sudo tee /etc/apt/sources.list.d/yarn.list $ sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install yarn  </description>
-    </item>
-    
-    <item>
-      <title>03 Installing Nginx</title>
-      <link>https://blog.endr.in/guides/cloudcone/03-installing-nginx/</link>
-      <pubDate>Mon, 16 May 2022 15:58:21 +0530</pubDate>
-      
-      <guid>https://blog.endr.in/guides/cloudcone/03-installing-nginx/</guid>
-      <description>Table of Content:
- Installing Nginx: Setting up nginx as webserver for nextjs/gatsby Setting up nginx as webserver for php Running multiple server blocks Retreiving errors  Installing Nginx: To install nginx, run the following command in terminal:
-$ sudo apt install nginx  Setting up nginx as webserver for nextjs/gatsby Example config for reverse proxy:
-# example script for reverse proxy server { server_name example.xopun.com; location / { # First attempt to serve request as file, then # as directory, then fall back to displaying a 404.</description>
-    </item>
-    
-    <item>
-      <title>02. Installing Nodejs</title>
-      <link>https://blog.endr.in/guides/cloudcone/02-installing-nodejs/</link>
-      <pubDate>Mon, 16 May 2022 14:49:29 +0530</pubDate>
-      
-      <guid>https://blog.endr.in/guides/cloudcone/02-installing-nodejs/</guid>
-      <description>In order to run the full stack server, at first, you will have to install nodejs. At the time of writing this article, nodejs is at version 14.0
-# Using Ubuntu $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - $ sudo apt-get install -y nodejs  This will install nodejs 14.0 in your server.
-Note:  if executing sudo apt update returns with an error, then goto the cloudcone control panel  Firewall  Accept.</description>
-    </item>
-    
-    <item>
-      <title>01. Installing the OS</title>
-      <link>https://blog.endr.in/guides/cloudcone/01-installing-the-os/</link>
-      <pubDate>Mon, 16 May 2022 13:06:50 +0530</pubDate>
-      
-      <guid>https://blog.endr.in/guides/cloudcone/01-installing-the-os/</guid>
-      <description>Table of Content:
- Installing the OS Login to the server: Changing date/time  Installing the OS You&amp;rsquo;ll require SSH keys in order to prevent logging in to computer with a password everytime.
-local computer
-$ ssh-keygen # Follow the onscreen directions in order to generate the public and the private pair $ cat YOUR_KEY.pub # The public key will appear # Copy the public key.  In cloudcone web dashboard</description>
-    </item>
-    
-    <item>
       <title>BSOC-101: Unit 14 Social Control and Change</title>
       <link>https://blog.endr.in/material/bsoc-101/unit-14-social-control-and-change/</link>
       <pubDate>Mon, 16 May 2022 13:03:23 +0530</pubDate>
