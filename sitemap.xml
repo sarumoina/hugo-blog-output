@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.endr.in/concept/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.endr.in/tags/concept/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.endr.in/</loc>
-    <lastmod>2022-06-12T12:45:34+05:30</lastmod>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.endr.in/people/max-muller/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.endr.in/concept/onomatopoeia/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.endr.in/people/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.endr.in/tags/people/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.endr.in/tags/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.endr.in/exam/</loc>
     <lastmod>2022-06-12T12:45:34+05:30</lastmod>
@@ -14,14 +35,17 @@
     <loc>https://blog.endr.in/exam/exam-dates-first-year/</loc>
     <lastmod>2022-06-12T12:45:34+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/tags/</loc>
-    <lastmod>2022-06-12T12:45:34+05:30</lastmod>
+    <loc>https://blog.endr.in/material/semester-i/begg-172/</loc>
+    <lastmod>2022-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/people/</loc>
-    <lastmod>2022-05-23T19:53:58+05:30</lastmod>
+    <loc>https://blog.endr.in/material/semester-i/begg-172/unit-01-what-is-language-unique-features-of-human-language/</loc>
+    <lastmod>2022-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/tags/people/</loc>
-    <lastmod>2022-05-23T19:53:58+05:30</lastmod>
+    <loc>https://blog.endr.in/material/</loc>
+    <lastmod>2022-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.endr.in/material/semester-i/</loc>
+    <lastmod>2022-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.endr.in/people/w-h-r-rivers/</loc>
     <lastmod>2022-05-23T19:53:58+05:30</lastmod>
@@ -59,52 +83,49 @@
     <loc>https://blog.endr.in/people/talcott-parsons/</loc>
     <lastmod>2022-05-16T17:46:16+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/</loc>
     <lastmod>2022-05-16T13:03:23+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/tags/bsoc-101/</loc>
     <lastmod>2022-05-16T13:03:23+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-14-social-control-and-change/</loc>
-    <lastmod>2022-05-16T13:03:23+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.endr.in/material/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-14-social-control-and-change/</loc>
     <lastmod>2022-05-16T13:03:23+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/tags/study/</loc>
     <lastmod>2022-05-16T13:03:23+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-13-structure-and-function/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-13-structure-and-function/</loc>
     <lastmod>2022-05-16T13:02:22+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-12-socialisation/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-12-socialisation/</loc>
     <lastmod>2022-05-16T12:59:09+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-11-status-and-role/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-11-status-and-role/</loc>
     <lastmod>2022-05-16T12:57:12+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-10-associations-and-institutions/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-10-associations-and-institutions/</loc>
     <lastmod>2022-05-16T12:54:13+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-09-social-groups-and-community/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-09-social-groups-and-community/</loc>
     <lastmod>2022-05-16T12:48:48+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-08-culture-and-society/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-08-culture-and-society/</loc>
     <lastmod>2022-05-16T12:16:33+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-07-relationship-of-sociology-with-pol-sceince/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-07-relationship-of-sociology-with-pol-sceince/</loc>
     <lastmod>2022-05-16T12:13:26+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-06-relationship-of-sociology-with-economics/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-06-relationship-of-sociology-with-economics/</loc>
     <lastmod>2022-05-16T12:11:36+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-05-relationship-of-sociology-with-history/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-05-relationship-of-sociology-with-history/</loc>
     <lastmod>2022-05-16T12:10:15+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-04-relationship-of-sociology-with-psychology/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-04-relationship-of-sociology-with-psychology/</loc>
     <lastmod>2022-05-16T12:08:54+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-03-relationship-of-sociology-with-anthropology/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-03-relationship-of-sociology-with-anthropology/</loc>
     <lastmod>2022-05-16T12:06:44+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/assignment/</loc>
@@ -115,12 +136,6 @@
   </url><url>
     <loc>https://blog.endr.in/assignment/begg-172/</loc>
     <lastmod>2022-05-16T11:57:24+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.endr.in/concept/</loc>
-    <lastmod>2022-05-16T11:21:23+05:30</lastmod>
-  </url><url>
-    <loc>https://blog.endr.in/tags/concept/</loc>
-    <lastmod>2022-05-16T11:21:23+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/concept/gemeinschaft-and-gesellschaft/</loc>
     <lastmod>2022-05-16T11:21:23+05:30</lastmod>
@@ -173,22 +188,22 @@
     <loc>https://blog.endr.in/concept/abstract-empiricism/</loc>
     <lastmod>2022-05-14T17:07:08+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-02-emergence-of-sociology-and-social-anthropology/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-02-emergence-of-sociology-and-social-anthropology/</loc>
     <lastmod>2022-05-14T17:07:08+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-102/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-102/</loc>
     <lastmod>2022-05-14T17:07:08+05:30</lastmod>
   </url><url>
     <loc>https://blog.endr.in/tags/bsoc-102/</loc>
     <lastmod>2022-05-14T17:07:08+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-102/unit-01-thinking-sociologically-and/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-102/unit-01-thinking-sociologically-and/</loc>
     <lastmod>2022-05-14T17:07:08+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-102/unit-02-colonial-discourse/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-102/unit-02-colonial-discourse/</loc>
     <lastmod>2022-05-14T17:07:08+05:30</lastmod>
   </url><url>
-    <loc>https://blog.endr.in/material/bsoc-101/unit-01-thinking-sociologically/</loc>
+    <loc>https://blog.endr.in/material/semester-i/bsoc-101/unit-01-thinking-sociologically/</loc>
     <lastmod>2022-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.endr.in/categories/</loc>
